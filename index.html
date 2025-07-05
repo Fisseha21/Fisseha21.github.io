@@ -106,9 +106,9 @@
                         <tbody>
                             <tr onmouseout="kinema_stop()" onmouseover="kinema_start()" bgcolor="#F2F4F4">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one">
-                                        <div class="two" id="kinema_image" style="opacity:0">
-                                            <video width="100%" muted autoplay loop>
+                                    <div class="one" style="position:relative; width:180px;">
+                                        <div class="two" id="kinema_image" style="position:absolute; top:0; left:0; width:180px; opacity:0;">
+                                            <video width="180" height="auto" muted autoplay loop>
                                                 <source src="images/KinemaNet2.mp4" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
@@ -144,6 +144,7 @@
                             </tr>
                         </tbody>
                     </table>
+
 
 
                     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
