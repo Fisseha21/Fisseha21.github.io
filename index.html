@@ -105,6 +105,46 @@
                     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
 
+                            <tr onmouseout="kinema_stop()" onmouseover="kinema_start()" bgcolor="#F2F4F4">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='kinema_image'>
+                                            <img src='images/KinemaNet2.png' width="180">
+                                        </div>
+                                        <img src='images/KinemaNet2.png' width="180">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function kinema_start() {
+                                            document.getElementById('kinema_image').style.opacity = "1";
+                                        }
+
+                                        function kinema_stop() {
+                                            document.getElementById('kinema_image').style.opacity = "0";
+                                        }
+                                        kinema_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:top">
+                                    <a href="https://computational-ocularscience.github.io/kinemanet.github.io/">
+                                        <papertitle> KinemaNet: Kinematic descriptors of deformation of ONH images for glaucoma progression detection </papertitle>
+                                    </a>
+                                    <br>
+                                    <strong>Fisseha A. Ferede</strong>,
+                                    <a href="https://www.computationalocularscience.com/members//"> Madhusudhanan Balasubramanian </a>
+                                    <br>
+                                    <em>In preparation for MIA submission</em>
+                                    <br>
+                                    <p></p>
+                                    <p>
+                                        Multi-frame based optical flow estimation algorithm.
+                                    </p>
+                                </td>
+                            </tr>
+                    </table>
+
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+
                             <tr onmouseout="zup_stop()" onmouseover="zup_start()" bgcolor="#F2F4F4">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
