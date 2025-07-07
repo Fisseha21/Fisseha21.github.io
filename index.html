@@ -107,49 +107,6 @@
 
                     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
-
-                            <tr onmouseout="zup_stop()" onmouseover="zup_start()" bgcolor="#F2F4F4">
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one">
-                                        <div class="two" id='zup_image'>
-                                            <img src='images/Zup-arch1.png' width="180">
-                                        </div>
-                                        <img src='images/Reconstruction.png' width="180">
-                                    </div>
-                                    <script type="text/javascript">
-                                        function zup_start() {
-                                            document.getElementById('zup_image').style.opacity = "1";
-                                        }
-
-                                        function zup_stop() {
-                                            document.getElementById('zup_image').style.opacity = "0";
-                                        }
-                                        zup_stop()
-                                    </script>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:top">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10980767">
-                                        <papertitle> Z-upscaling: Optical Flow Guided Frame Interpolation for Isotropic Reconstruction of 3D EM Volumes </papertitle>
-                                    </a>
-                                    <br>
-                                    <strong>Fisseha A. Ferede</strong>, Ali Khalighifar, Jaison John, Krishnan Venkataraman,
-                                    <a href="https://scholar.google.com/citations?user=lLAxldMAAAAJ&hl=en"> Khaled Khairy </a>
-                                    <br>
-                                    <em> IEEE International Symposium on Biomedical Imaging (ISBI) </em>, 2025
-                                    <br>
-                                    <a href="https://arxiv.org/pdf/2410.07043">arXiv</a> /
-                                    <a href="https://github.com/Fisseha21/Z-upscaling">code</a>
-                                    <p></p>
-                                    <p>
-                                        Spatial flow interpolation approach for isotropic reconstruction of 3D medical volumes.
-                                    </p>
-                                </td>
-                            </tr>
-                    </table>
-
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
                             <tr onmouseout="kinema_stop()" onmouseover="kinema_start()" bgcolor="#F2F4F4">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one" style="position:relative; width:180px; height:120px;">
@@ -193,6 +150,100 @@
                             </tr>
                         </tbody>
                     </table>
+
+
+
+
+
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr onmouseout="zup_stop()" onmouseover="zup_start()" bgcolor="#F2F4F4">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one" style="position:relative; width:180px; height:120px;">
+                                        <div class="two" id="zup_image" style="position:absolute; top:0; left:0; width:180px; height:120px; opacity:0;">
+                                            <video width="180" height="120" muted autoplay loop style="object-fit: cover;">
+                                                <source src="images/zupVideo.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                        <img src="images/Zup-arch1.png" width="180" height="120">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function zup_start() {
+                                            document.getElementById('zup_image').style.opacity = "1";
+                                        }
+
+                                        function zup_stop() {
+                                            document.getElementById('zup_image').style.opacity = "0";
+                                        }
+                                        zup_stop();
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:top">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10980767">
+                                        <papertitle> Z-upscaling: Optical Flow Guided Frame Interpolation for Isotropic Reconstruction of 3D EM Volumes </papertitle>
+                                    </a>
+                                    <br>
+                                    <strong>Fisseha A. Ferede</strong>, Ali Khalighifar, Jaison John, Krishnan Venkataraman,
+                                    <a href="https://scholar.google.com/citations?user=lLAxldMAAAAJ&hl=en"> Khaled Khairy </a>
+                                    <br>
+                                    <em> IEEE International Symposium on Biomedical Imaging (ISBI) </em>, 2025
+                                    <br>
+                                    <a href="https://arxiv.org/pdf/2410.07043">arXiv</a> /
+                                    <a href="https://github.com/Fisseha21/Z-upscaling">code</a>
+                                    <p></p>
+                                    <p>
+                                        Spatial flow interpolation approach for isotropic reconstruction of 3D medical volumes.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+
+                            <tr onmouseout="zup_stop()" onmouseover="zup_start()" bgcolor="#F2F4F4">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='zup_image'>
+                                            <img src='images/Zup-arch1.png' width="180">
+                                        </div>
+                                        <img src='images/Reconstruction.png' width="180">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function zup_start() {
+                                            document.getElementById('zup_image').style.opacity = "1";
+                                        }
+
+                                        function zup_stop() {
+                                            document.getElementById('zup_image').style.opacity = "0";
+                                        }
+                                        zup_stop()
+                                    </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:top">
+                                    <a href="https://ieeexplore.ieee.org/abstract/document/10980767">
+                                        <papertitle> Z-upscaling: Optical Flow Guided Frame Interpolation for Isotropic Reconstruction of 3D EM Volumes </papertitle>
+                                    </a>
+                                    <br>
+                                    <strong>Fisseha A. Ferede</strong>, Ali Khalighifar, Jaison John, Krishnan Venkataraman,
+                                    <a href="https://scholar.google.com/citations?user=lLAxldMAAAAJ&hl=en"> Khaled Khairy </a>
+                                    <br>
+                                    <em> IEEE International Symposium on Biomedical Imaging (ISBI) </em>, 2025
+                                    <br>
+                                    <a href="https://arxiv.org/pdf/2410.07043">arXiv</a> /
+                                    <a href="https://github.com/Fisseha21/Z-upscaling">code</a>
+                                    <p></p>
+                                    <p>
+                                        Spatial flow interpolation approach for isotropic reconstruction of 3D medical volumes.
+                                    </p>
+                                </td>
+                            </tr>
+                    </table>
+
+
 
                     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
                         <tbody>
